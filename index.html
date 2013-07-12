@@ -8,7 +8,19 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:300|Open+Sans' rel='stylesheet' type='text/css'>
 		<!--<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="shoestore_tablet.css" /><Css for tablet-->
 		<!--<link rel="stylesheet" media="(max-width: 480px)" type="text/css" href="shoestore_mobile.css" /><Css for mobile-->
-	</head>
+
+		<!--JS-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.slides.min.js"></script> 
+		<!-- SlidesJS Required: Link to jQuery -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<!-- End SlidesJS Required -->
+
+		<!-- SlidesJS Required: Link to jquery.slides.js -->
+		<script src="js/jquery.slides.min.js"></script>
+		<!-- End SlidesJS Required -->
+		<script type="text/javascript" src="./js/main.js"></script>
+</head>
 
 	<body>
 		<!--Page container-->
@@ -21,8 +33,8 @@
 					</div><!--Closes the logo header tag row gu6-->
 					<div class="row gu6">
 						<ul>
-							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/index.html">Home</a></li>
-							<li class="selected">About Me</li>
+							<li class="selected">Home</li>
+							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/about.html">About Me</a></li>
 							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/projects.html">Projects</a></li>
 							<li><a href="#">Services</a></li>
 							<li><a href="#">Contact</a></li>
@@ -33,49 +45,40 @@
 
 			<!--Area for actual content-->
 			<section>
+
 				<div class="row pg-content">
 					<div class="col gu6">
-						<!--Area for introduction-->
-						<div class="col gu3">
-							<h1>About Me</h1>
-							<h2>Freelance/ 3D environment artist</h2>
-							<p>I am a creative individual passionate about creating 3D environments and interested in learning new techniques. I am comfortable with self learning and adapting to new standards. Additionally, I am capable of working under constraints.</p> 
-							<h2>Skills:</h2> 
-							<ol>
-								<li>Unity 3D</li>
-								<li>Maya</li>
-								<li>Premiere Pro</li>
-								<li>After Effects</li>
-								<li>Photoshop</li>
-								<li>Illustrator</li>
-								<li>Paint shop Sai</li>
-								<li>In Design</li>
-								<li>Flash</li>
-								<li>Solidworks</li>
-							</ol>
-							<h2>Fluent languages:</h2>
-							<ol>
-								<li>English</li>
-								<li>Mandarin Chinese</li>
-								<li>Japanese</li>
-							</ol>
-							<p>
-							As an individual, I am fascinated by East Asian culture and often draw inspiration from my travels to these places. I am also interested in working with the concept of immersive environments and have done projects where the focus is specifically on creating engaging 3D environments. 
-							</p>
-						</div><!--Closes gu2_5-->
+						
+						<!--Area for Home Page-->
+						<div class="col gu1_5">
+							<h1>Hi!</h1>
+							<p>Welcome to my Portfolio. I am a 3D environment artist and a freelance graphic designer.</p>
+						</div><!--Closes col gu1_5 area-->
 
+						<!--Quick Project overview-->
+						<div class="col gu4">
+							  <div class="container">
+							    <div id="slides">
+							      <img src="image/1.jpg" alt="Photo of ClockTower">
+							      <img src="image/2.jpg" alt="Photo">
+							      <img src="image/3.jpg" alt="Photo">
+							      <img src="image/4.jpg" alt="Photo">
+							      <img src="image/a_2.jpeg" alt="Photo">
+							      <img src="image/a_5.jpeg" alt="Photo">
+							      <img src="image/a_9.jpeg" alt="Photo">
+							      <img src="image/a_11.jpeg" alt="Photo">
+							    </div><!--Closes the container-->
+							  </div><!--Closes the slides-->
+						</div><!--Closes gu4-->
 
-						<!--Area for Photo-->
-						<div class="col gu2">
-							<img id="me" src="image/Me.jpg" alt="Hsuanwen Amy Wang's photo" />
-						</div><!--Closes col gu2 area-->
 					</div><!--Closes col gu6-->
 				</div><!--Closes pg-content-->
 			</section>
 		</div><!--Closes page gu6 div-->
 
 		<footer>
-			<p>Hsuanwen Wang &copy; All rights reserved</p>
+
+<p>Hsuanwen Wang &copy; All rights reserved</p>
 		</footer>
 	</body>
 </html>
