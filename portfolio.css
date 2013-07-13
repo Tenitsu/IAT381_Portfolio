@@ -234,6 +234,7 @@ a:active, a:hover{
 .pg-content{
 	width: 1200px;
 	margin-left: -0.5px;
+	padding-top: 5%;
 }
 
 .pg-content .gu1_5 ul{
