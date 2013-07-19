@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Hsuanwen Amy Wang's Portfolio</title> <!--Title-->
 		<link rel="stylesheet" type = "text/css" href="portfolio.css"/> <!-- calling on style sheet and tell it that it's css -->
+		<link rel="stylesheet" media="(max-width: 1200px)" type="text/css" href="portfolio_tablet.css" /><!--Css for tablet-->
+		<link rel="stylesheet" media="(max-width: 480px)" type="text/css" href="portfolio_mobile.css" /><!--Css for mobile-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300|Open+Sans' rel='stylesheet' type='text/css'>
 
 		<!--LightBox Code-->
@@ -27,11 +29,10 @@
 					</div><!--Closes the logo header tag row gu6-->
 					<div class="row gu6">
 						<ul>
-							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/index.html">Home</a></li>
-							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/about.html">About Me</a></li>
 							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/projects.html">Projects</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/about.html">About Me</a></li>
+							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/contact.html">Contact</a></li>
+							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/index.html">Home</a></li>
 						</ul><!--Closes the Unordered list-->
 					</div><!--Closes the section for row gu6 with the 'about' page logo-->
 				</div><!--Closes pg-header-->
@@ -44,22 +45,39 @@
 						<!--Area for introduction-->
 						<div class="col gu2">
 							<h1>Finding Alice</h1>
-							<p class="More-Detail">For this project, my contribution includes the creation of the Bedroom, Clock Tower, Crossroad, Card Chase and the final revelation scene. I also manipulated the sounds and their timing for the game. Furthermore, I am also the debugger for the game as a whole and the project manager.</p>
+							<h2>Project details:</h2>
+							<p class="More-Detail">School Project - Team of 4</p>
+							<h2>My contribution</h2>
+							<p class="More-Detail">- Created 5 out of the 10 environments in game:</p>
+							<ol>
+								<li>Bedroom</li>
+								<li>Clock Tower</li>
+								<li>Cross Road</li>
+								<li>Card Chase</li>
+								<li>Final Revelation scene</li>
+							</ol>
+							<p class="More-Detail">- Sound design (Timing and manipulation) <br>- Programmer (interaction in scenes I'm responsible) <br>- Debugger for the game as a whole<br>- Project manager</p>
+
+							<h2>Programs used</h2>
+							<p class="More-Detail">- Unity 3D<br>- Maya<br>- Audacity<br>- Photoshop</p>
+
+							<h2>More Details about the project</h2>
 							<p class="More-Detail">This project is about exploring and immersing in the surreal world of Alice while trying to beat the Prankster Alice at her game of hide and seek. The player travels from one world to the next by unlocking doors either by shooting at the blue flames or going through them. Furthermore, as Alice is a prankster, there will be fake doors that do nothing. As a little guide, there will also be little spot lights which will help guide the players through their journey. Our objective is to create an immersive environment that allows the user to use their imagination to interpret the world around them, experience a compelling narrative and explore handcrafted scenery. We want the user to experience a sense of mystery and curiosity when they enter our world. We focused on implementing sensory and imaginative immersion. Our prime concern was finding ways to occlude aspects from reality and use sounds to make the experience more immersive. This guided us in deciding on the atmospheric colours of the worlds as well as the sounds we use. Sounds are also manipulated to match each environment.  </p>
+
 						</div><!--Closes gu2_5-->
 
 
 						<!--Area for Photos and video-->
 						<div class="col gu3">
-							<video id="FindingAlice-Video" poster="image/1.jpg" controls>
+							<video id="FindingAlice-Video" poster="image/1Demo.jpg" controls>
 								<source src="video/finalProjectVideo_teamPendulum.mp4" type="video/mp4">
 								<source src="video/finalProjectVideo_teamPendulum.webm" type="video/webm">
 								<source src="video/finalProjectVideo_teamPendulum.ogg" type="video/ogg">
 							</video>
 							<div id="main">
-								<h2>Gallery</h2>
+								<h2>Screenshot of Environments that I created</h2>
 								<ul class="gallery clearfix">
-									<li><a href="image/1.jpg" class="prettyPhoto"><img class="ClearImages" src="image/1.jpg" alt="Alice's Bedroom" /></a></li>
+									<li><a href="image/1.jpg" class="prettyPhoto"><img class="ClearImages" src="image/1.jpg" alt="Alice's Bedroom" title="Screenshot" /></a></li>
 									<li><a href="image/2.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/2.jpg" alt="Clock Tower" /></a></li>
 									<li><a href="image/3.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/3.jpg" alt="House in the middle of the lake" /></a></li>
 									<li><a href="image/4.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/4.jpg" alt="A Giant Clock that moves backwards" /></a></li>
@@ -70,7 +88,16 @@
 									<li><a href="image/9.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/9.jpg" alt="Waterfall area" /></a></li>
 									<li><a href="image/10.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/10.jpg" alt="Forest of Echo" /></a></li>
 									<li><a href="image/11.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/11.jpg" alt="Floating Cards" /></a></li>
+								</ul><!--Closes UL class-->
+
+								<h2>Photos of my process</h2>
+								<ul class="gallery clearfix">
+									<li><a href="image/IMAG0247.jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/IMAG0247.jpg" alt="Postit Notes Brainstorm" /></a></li>
+									<li><a href="image/8(1).jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/8(1).jpg" alt="Environment top view layout sketch" /></a></li>
+									<li><a href="image/7(1).jpg" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/7(1).jpg" alt="Environment conceptual sketch" /></a></li>
+									<li><a href="image/ClockWork.png" class="prettyPhoto[gallery1]"><img class="ClearImages" src="image/ClockWork.png" alt="Unity Interface" /></a></li>
 								</ul><!--Closes the unordered list-->
+								<h2><a href="http://www.sfu.ca/~hwa47/Portfolio/Public/Design.html">More Process Information</a></h2>
 							</div><!--Closes the Main Tag-->
 						</div><!--Closes col gu2 area-->
 					</div><!--Closes col gu6-->

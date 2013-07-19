@@ -5,6 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Hsuanwen Amy Wang's Portfolio</title> <!--Title-->
 		<link rel="stylesheet" type = "text/css" href="portfolio.css"/> <!-- calling on style sheet and tell it that it's css -->
+		<link rel="stylesheet" media="(max-width: 1200px)" type="text/css" href="portfolio_tablet.css" /><!--Css for tablet-->
+		<link rel="stylesheet" media="(max-width: 480px)" type="text/css" href="portfolio_mobile.css" /><!--Css for mobile-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300|Open+Sans' rel='stylesheet' type='text/css'>
 		<!--<link rel="stylesheet" media="(max-width: 768px)" type="text/css" href="shoestore_tablet.css" /><Css for tablet-->
 		<!--<link rel="stylesheet" media="(max-width: 480px)" type="text/css" href="shoestore_mobile.css" /><Css for mobile-->
@@ -21,11 +23,10 @@
 					</div><!--Closes the logo header tag row gu6-->
 					<div class="row gu6">
 						<ul>
-							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/index.html">Home</a></li>
-							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/about.html">About Me</a></li>
 							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/projects.html">Projects</a></li>
-							<li><a href="#">Services</a></li>
+							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/about.html">About Me</a></li>
 							<li class="selected"><a href="#">Contact</a></li>
+							<li><a href="http://www.sfu.ca/~hwa47/iat381/Portfolio/index.html">Home</a></li>
 						</ul><!--Closes the Unordered list-->
 					</div><!--Closes the section for row gu6 with the 'about' page logo-->
 				</div><!--Closes pg-header-->
@@ -39,7 +40,7 @@
 						<div class="col gu2">
 							<h1>Contact</h1>
 							<div class="Contact-information">
-								<p>I can be contacted through Email.</p>
+								<p>I have experience and am able to work in group settings.<br>I can also work on the creation of 3D environments from brainstorming to final by request. If interested, please contact me via email: </p>
 								<h2>Email: tenitsu@gmail.com</h2>
 							</div>
 						</div><!--Closes gu2_5-->
@@ -47,7 +48,7 @@
 
 						<!--Area for Photo-->
 						<div class="col gu3">
-							<img id="BackgroundImage" src="image/bk1.png" alt="A simple environment" />
+							<img id="BackgroundImage" src="image/bk1.png" alt="A simple environment" onclick="window.location.href='http://www.sfu.ca/~hwa47/iat381/Portfolio/index.html'"/>
 						</div><!--Closes col gu2 area-->
 					</div><!--Closes col gu6-->
 				</div><!--Closes pg-content-->

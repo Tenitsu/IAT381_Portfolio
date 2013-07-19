@@ -85,9 +85,9 @@ a:active, a:hover{
 }
 
 .page{
-	max-width:1200px;
+	max-width:768px;
 	min-height:99%;
-	width: 1200px;
+	width: 768px;
 	position: relative;
 	margin-right:auto;
 	margin-left: auto;
@@ -139,8 +139,9 @@ a:active, a:hover{
 }
 
 .gu1_5{
-	width: 289px;
+	width: 50%;
 	padding-top: 2%;
+	padding-bottom: 5%;
 	float: left;
 }
 
@@ -198,11 +199,8 @@ a:active, a:hover{
 	text-align: left;
 	font-size: 12px;
 	margin-left: 100px;
-}
 
-.gu2 ol li{
-	margin-top: 5px;
-	margin-bottom: 5px;
+
 }
 
 .gu2_5{
@@ -254,13 +252,15 @@ a:active, a:hover{
 }
 
 .gu4{
-	width: 75%;
+	width: 80%;
+	padding-left: 80px;
+	padding-top: 20px;
 }
 
 .pg-content{
-	width: 1200px;
+	width: 768px;
 	margin-left: -0.5px;
-	padding-top: 1.5%;
+	padding-top: 3%;
 }
 
 .pg-content .gu1_5 ul{
