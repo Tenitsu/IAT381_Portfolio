@@ -55,7 +55,7 @@ footer{
 	/*background: url('image/Footer.png') bottom repeat-x ;*/
 	height: 6.9%;
 	z-index: 100;
-	border: solid orange;*/
+	/*border: solid orange;*/
 }
 
 footer p {
@@ -92,7 +92,7 @@ a:active, a:hover{
 	margin-right:auto;
 	margin-left: -7px;
 	padding-right: 0px;
-	border:1px solid red;/*Grid visualization guide. Remove when publish*/
+	/*border:1px solid red;/*Grid visualization guide. Remove when publish*/
 }
 
 .row {
@@ -112,7 +112,7 @@ a:active, a:hover{
 .pg-header {
 	width: 100%;
 	margin-left: 0px;
-	border:2px solid blue;/*Grid visualization guide. Remove when publish*/
+	/*border:2px solid blue;/*Grid visualization guide. Remove when publish*/
 }
 
 .col{
@@ -165,10 +165,10 @@ a:active, a:hover{
 
 .gu2{
 	width: 400px;
-	padding-left: -10px;
+	padding-left: 10px;
 	padding-top: 2%;
 	text-align: right;
-	border: solid 1px red;
+	/*border: solid 1px red;*/
 }
 
 .gu2 h1{
@@ -214,7 +214,7 @@ a:active, a:hover{
 .gu3{
 	width: 86%;
 	padding-left: 5%;
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 
 }
 
@@ -258,7 +258,7 @@ a:active, a:hover{
 	width: 445px;
 	margin-left: -0.5px;
 	padding-top: 10%;
-	border: solid 1px blue;
+	/*border: solid 1px blue;*/
 }
 
 .pg-content .gu1_5 ul{
@@ -364,7 +364,7 @@ Jquery Slider plugin font-style:
       }
       .container {
         width: 480px;
-        border: solid green 1px;
+        /*border: solid green 1px;*/
       }
     }
 
@@ -393,7 +393,7 @@ Jquery Slider plugin font-style:
 ClearBox plugin settings
 -------------------------------------------------*/
 	.wide {
-		border-bottom: 1px #000 solid;
+		/*border-bottom: 1px #000 solid;
 		/*width: 4000px;*/
 	}
 	
@@ -411,7 +411,7 @@ ClearBox plugin settings
 		margin: 0 auto;
 		margin-left: -4px;
 		width: 95%;
-		border: red solid 1px;
+		/*border: red solid 1px;*/
 	}
 
 	#main h2{
@@ -422,7 +422,7 @@ ClearBox plugin settings
 	.gallery {
 		width: 80%;
 		margin-left: -50px;
-		border: solid 3px orange;
+		/*border: solid 3px orange;*/
 	}
 
 	.ClearImages{
